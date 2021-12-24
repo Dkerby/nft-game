@@ -1,0 +1,32 @@
+{
+  "name": "nft-game",
+  "version": "1.0.0",
+  "description": "A turn-based NFT game written in Solidity and React featuring some characters from the Sonic universe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dkerby/nft-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dkerby/nft-game/issues"
+  },
+  "homepage": "https://github.com/Dkerby/nft-game#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.2",
+    "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1",
+    "dotenv": "^10.0.0"
+  }
+}
